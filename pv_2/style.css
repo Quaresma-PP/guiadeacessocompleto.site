@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #2563eb;
-    --primary-hover: #1d4ed8;
+    --primary-color: #23734d;
+    --primary-hover: #195b3c;
     --secondary-color: #e53e3e;
-    --bg-light-blue: #eff6ff;
+    --bg-accent: #ecf6ef;
     --text-dark: #1a202c;
     --text-medium: #4a5568;
     --text-light: #718096;
@@ -10,7 +10,7 @@
     --bg-white: #ffffff;
     --bg-gray: #f7fafc;
     --star-color: #f59e0b;
-    --success-green: #38a169;
+    --success-green: #78528f;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -18,7 +18,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     color: var(--text-dark);
-    background: var(--bg-white);
+    background: #f8f6f0;
     line-height: 1.7;
     -webkit-font-smoothing: antialiased;
 }
@@ -120,7 +120,7 @@ body {
 /* Special offer box */
 .offer-box {
     border: 2px solid var(--primary-color);
-    background: var(--bg-light-blue);
+    background: var(--bg-accent);
     border-radius: 10px;
     padding: 20px 24px;
     text-align: center;
@@ -396,8 +396,8 @@ body {
 }
 
 /* ===== Botão verde ===== */
-.cta-btn.green { background: #16a34a; }
-.cta-btn.green:hover { background: #15803d; }
+.cta-btn.green { background: #78528f; }
+.cta-btn.green:hover { background: #5f3d74; }
 
 /* ===== Bloco de oferta (igual ao da página de vendas) ===== */
 .pv-offer {
